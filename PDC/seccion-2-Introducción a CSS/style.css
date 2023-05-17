@@ -1,0 +1,17 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px
+}
