@@ -1,0 +1,41 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+   
+  .column {
+    flex: 1;
+    padding: 10px;  
+  }
+
+  @media (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+  }
+  
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px
+}
