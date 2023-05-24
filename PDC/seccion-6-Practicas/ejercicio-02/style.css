@@ -1,0 +1,90 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    border: dotted;
+    margin-bottom: 25px;
+}
+
+.first{
+    background-color: coral;
+    border: darkkhaki;
+    width: 100px;
+    height: 100px;
+}
+
+.second{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border: darkkhaki;
+    background-color: cornflowerblue;
+}
+
+.third{
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+    border: darkkhaki;
+    background-color: darkseagreen
+}
+.containera{
+    margin-bottom: 25px;
+    display:flex;
+    flex-direction: column;
+    border: dotted
+}
+
+.firsta{
+    margin-bottom: 15px;
+    background-color: coral;
+    border: darkkhaki;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+}
+
+.seconda{
+    width: 400px;
+    height: 100px;
+    align-self: center;
+    border: darkkhaki;
+    background-color: cornflowerblue;
+}
+
+.thirda{
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border: darkkhaki;
+    background-color: darkseagreen
+}
+.containerb{
+    display:flex;
+    flex-direction: column;
+    border: dotted
+}
+
+.firstb{
+    background-color: coral;
+    border: darkkhaki;
+    align-self: flex-end;
+    width: 100px;
+    height: 100px;
+}
+
+.secondb{
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+    border: darkkhaki;
+    background-color: cornflowerblue;
+}
+
+.thirdb{
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+    border: darkkhaki;
+    background-color: darkseagreen
+}

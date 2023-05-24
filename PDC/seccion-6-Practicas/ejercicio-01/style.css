@@ -1,0 +1,20 @@
+.first{
+    background-color: rgb(9, 201, 201);
+    padding: 1px;
+    width: 500px;
+    height: 300px;
+}
+
+.second{
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: bisque;
+}
+
+.third{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+}
