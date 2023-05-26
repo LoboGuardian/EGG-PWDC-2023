@@ -1,0 +1,129 @@
+.container-nav {
+  display: flex;
+  padding: 10px;
+  height: 50px;
+  background-color: black;
+  }
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  }
+main{
+  display: flexbox;
+  flex-direction: column;
+  align-self: center;
+}
+
+footer{
+  display: flexbox;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 200px;
+}
+  .img{
+    display: flexbox;
+    align-items: center;
+  }
+
+.video{
+  display: flexbox;
+  align-items: center;
+}
+
+  .brand {
+  display: flex;
+  align-items: center;
+  }
+  li>a {
+  padding: 8px 24px;
+  }
+  li {
+  list-style-type: none;
+  }
+  a {
+  color: white;
+  text-decoration:none;
+  }
+  .nav-links {
+  display: flex;
+  align-items: center;
+  }
+  .button-menu-toggle {
+  display: none;
+  }
+
+  @media (max-width: 768px) {
+    .column {
+    flex: 100%;
+    }
+    .nav-links {
+    display: none;
+    }
+    .button-menu-toggle {
+    display: block;
+    background-color: white;
+    border:none;
+    border-radius: 50px;
+    padding: 0 24px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    }
+    .nav-links.nav-links-responsive {
+    position: absolute;
+    display: flex;
+    background-color: rgba(20,20,20,0.95);
+    width: 100%;
+    height: 100%;
+    top: 70px;
+    left: 0;
+    flex-direction: column;
+    padding-top: 200px;
+    align-items: center;
+    gap:70px;
+    font-size: 40px;
+    }
+    }
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+   
+  .column {
+    flex: 1;
+    padding: 10px;  
+  }
+
+  @media (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+  }
+  
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px
+}
