@@ -1,0 +1,12 @@
+/* Estilos CSS para centrar el contenido */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+#resultados {
+    display: none;
+  }

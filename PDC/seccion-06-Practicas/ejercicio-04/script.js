@@ -1,3 +1,8 @@
+function mostrarInversion() {
+    let str = document.getElementById("string").value;
+    document.getElementById("resultado").textContent = invertirPalabras(str);
+  }
+  
 function invertirPalabras(str) {
     // Separar el string en un array de palabras
     let palabras = str.split(" ");

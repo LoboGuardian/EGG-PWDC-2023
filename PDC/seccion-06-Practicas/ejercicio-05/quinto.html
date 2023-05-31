@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuatro</title>
+    <title>Ejercicio-5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <h1>Operaciones Matemáticas</h1>
+    <button onclick="realizarOperaciones()">Realizar Operaciones</button>
+    <script>
+        function realizarOperaciones() {
+            let num1 = prompt("Ingresa el primer número:");
+            let num2 = prompt("Ingresa el segundo número:");
+            let resultados = operacionesMatematicas(num1, num2);
+
+        console.log(resultados);
+        }
+      </script>
+
 </body>
-<script src="index.js"></script>
 </html>

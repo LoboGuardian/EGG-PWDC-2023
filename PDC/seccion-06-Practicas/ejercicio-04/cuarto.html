@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Cuatro</title>
 </head>
 <body>
-    <input type="text" id="string" placeholder="Ingrese un string">
-    <button onclick="mostrarInversion()">Invertir palabras</button>
-    <p id="resultado"></p>
-    <script src="script.js"></script>
-<script>
-  function mostrarInversion() {
-    let str = document.getElementById("string").value;
-    document.getElementById("resultado").textContent = invertirPalabras(str);
-  }
-</script>
+  <div class="container">
+    <div class="input-container">
+      <input type="text" id="string" placeholder="Ingrese una palabra">
+      <!-- A la linea anterior se puede agregar /*onkeyup="mostrarInversion()" para que haga el cambio en automatico  -->
+    </div>
+    <div class="button-container">
+      <button onclick="mostrarInversion()">Invertir palabras</button>
+    </div>
+    <div class="result-container">
+      <p id="resultado"></p>
+    </div>
+  </div>
 </body>
-<script src="index.js"></script>
 </html>

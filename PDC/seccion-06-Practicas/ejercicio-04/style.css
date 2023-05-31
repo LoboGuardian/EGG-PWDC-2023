@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+ }
+  /* En este ejemplo, se agrega un estilo CSS al elemento `body` para establecer el margen en 0. Además, se utiliza la propiedad `margin` en el contenedor principal con un valor de "0 auto" para centrar el contenedor en la página horizontalmente.
+  
+  También se agrega un relleno de 10px en cada lado del contenedor principal para separar el contenido del borde de la ventana del navegador. Esto evita que el contenido se extienda demasiado cerca del borde de la ventana del navegador.
+  
+  Espero que esta respuesta te sea útil para solucionar el problema del margen blanco feo en tu página HTML. Si tienes alguna otra pregunta o necesitas más ayuda, no dudes en preguntar. */
