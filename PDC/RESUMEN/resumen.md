@@ -3,10 +3,10 @@
 Les comparto los fundamentos que aprendí en el curso de PWDC (Programación Web desde Cero) con Egg
 
 Estará desglosado de acuerdo a cada lenguaje, de la siguiente manera, si quieres saltar a algun tema en especifico solo selecciona el indice
-- ![Primeros pasos](#primeros-pasos)
-- ![HTML](#html)
-- ![CSS](#css)
-- ![JavaScript (JS)](#javascript-js)
+- ![Primeros pasos](https://github.com/LoboGuardian/Egg/blob/main/PDC/RESUMEN/resumen.md#primeros-pasos)
+- ![HTML](https://github.com/LoboGuardian/Egg/blob/main/PDC/RESUMEN/resumen.md#html)
+- ![CSS](https://github.com/LoboGuardian/Egg/blob/main/PDC/RESUMEN/resumen.md#css)
+- ![JavaScript (JS)](https://github.com/LoboGuardian/Egg/blob/main/PDC/RESUMEN/resumen.md#javascript-js)
 
 ## Primeros pasos
 
