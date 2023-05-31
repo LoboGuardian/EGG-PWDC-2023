@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla Dinámica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tabla Dinámica</h1>
+    <div class="container">
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre del país</th>
+                    <th>Puntaje</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Argentina</td>
+                    <td contenteditable="true">700</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td contenteditable="true">800</td>
+                </tr>
+                <tr>
+                    <td>Chile</td>
+                    <td contenteditable="true">600</td>
+                </tr>
+                <tr>
+                    <td>México</td>
+                    <td contenteditable="true">750</td                </tr>
+                <tr>
+                    <td>Perú</td>
+                    <td contenteditable="true">500</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="buttons">
+            <button id="add-button">Agregar país</button>
+            <button id="reset-button">Reset</button>
+            <button id="start-stop-button">Iniciar</button>
+            <select id="versions-select">
+                <option value="0">Versión actual</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

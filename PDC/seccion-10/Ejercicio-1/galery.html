@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de imágenes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Galería</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="image-slider">
+        <img class="img" src="images/image.webp">
+        <img class="img" src="images/image.webp">
+        <img class="img" src="images/image.webp">
+        <img class="img" src="images/image.webp">
+        <button class="prev-button button-slider">&lt;</button>
+        <button class="next-button button-slider">&gt;</button>
+      </div>
+      <div class="gallery-container gallery-container-bottom hidden">
+        <div class="gallery-row">
+          <img class="gallery-img" src="images/image.webp">
+          <img class="gallery-img" src="images/image.webp">
+          <img class="gallery-img" src="images/image.webp">
+        </div>
+        <div class="gallery-row">
+          <img class="gallery-img" src="images/image.webp">
+        </div>
+      </div>
+      <button class="toggle-button">Ver vista de galería de imágenes</button>
+    </body>
+    <script src="script.js"></script>
+  </html>

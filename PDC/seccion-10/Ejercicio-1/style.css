@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .img {
+    max-width: 99%;
+    max-height: 99%;
+  }
+  
+  .image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+    background-color: black;
+  }
+  
+  .gallery-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .gallery-container-visible {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  /* .gallery-img {
+    width: 30%;
+    margin: 10px;
+  } */
+  
+  .gallery-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-slider {
+    border: none;
+    height: 100%;
+    width: 10%;
+    background-color: transparent;
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    position: absolute;
+    left: 0;
+  }
+  
+  .next-button {
+    position: absolute;
+    right: 0;
+  }
+  
+  .button-slider:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size:24px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
