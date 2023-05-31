@@ -7,7 +7,16 @@
     <title>Cuatro</title>
 </head>
 <body>
-    
+    <input type="text" id="string" placeholder="Ingrese un string">
+    <button onclick="mostrarInversion()">Invertir palabras</button>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+<script>
+  function mostrarInversion() {
+    let str = document.getElementById("string").value;
+    document.getElementById("resultado").textContent = invertirPalabras(str);
+  }
+</script>
 </body>
 <script src="index.js"></script>
 </html>
