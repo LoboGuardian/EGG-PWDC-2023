@@ -1,16 +1,15 @@
 # Egg
 
-## Libros y guias
-Desarrollados dentro del curso programación web desde cero de Egg
+## Mi puntuación
 
-## Estrellas
+![score](score.jpg)
+
+<!-- ## Estrellas
 [![Star History Chart](https://api.star-history.com/svg?repos=LoboGuardian/Egg&type=Date)](https://star-history.com/#LoboGuardian/Egg&Timeline)
 
 ## Colaboradores
 
-## Mi puntuación
-
-![score](score.jpg)
+-[![Rafael González](https://img.shields.io/badge/-@loboguardian-gray?style=for-the-badge&logoColor=white&labelColor=101010&logo=github)](https://github.com/loboguardian) -->
 
 ## Descargo de responsabilidad
 
