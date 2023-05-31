@@ -32,7 +32,8 @@ Es importante notar que algunos elementos en HTML no requieren una etiqueta de c
 <img src="imagen.jpg" alt="Descripción de la imagen" />
 ```
 
-** Estructura **
+**Estructura**
+
 Recordemos que la estructura del `HTML` es de la siguiente manera
 ```
 <!DOCTYPE html>
@@ -58,14 +59,16 @@ En este ejemplo, se está aplicando la propiedad "color" al elemento "p" y se le
 Es importante mencionar que también se pueden aplicar propiedades CSS a través de un archivo externo de estilo o mediante un selector de clase o ID en el archivo HTML.
 
 **Bordes**
+
 La propiedad "border" permite establecer el ancho, el estilo y el color del borde de un elemento. La sintaxis para utilizar esta propiedad es la siguiente:
 ```
 border: ancho estilo color;
 ```
 Donde:
-"ancho" es un valor numérico que indica el grosor del borde en píxeles, em o alguna otra unidad de medida.
-"estilo" es una palabra clave que define el estilo del borde, como "solid" (sólido), "dashed" (discontinuo), "dotted" (punteado), entre otros.
-"color" es un valor que define el color del borde, puede ser un nombre de color, un valor RGB, un valor hexadecimal, entre otros.
+- "ancho" es un valor numérico que indica el grosor del borde en píxeles, em o alguna otra unidad de medida.
+- "estilo" es una palabra clave que define el estilo del borde, como "solid" (sólido), "dashed" (discontinuo), "dotted" (punteado), entre otros.
+- "color" es un valor que define el color del borde, puede ser un nombre de color, un valor RGB, un valor hexadecimal, entre otros.
+
 Por ejemplo, para definir un borde sólido de color rojo con un grosor de 2 píxeles alrededor de un elemento, se podría utilizar la siguiente regla CSS:
 ```
 border: 2px solid red;
@@ -76,12 +79,13 @@ Es importante mencionar que también se pueden utilizar propiedades separadas pa
 **Media Queries**
 
 Para cambia la dirección de los elementos flexibles se puede almacenar en una clase ".container" a una orientación de columna cuando el ancho de la pantalla es igual o menor a X (determinados) píxeles.
+
 Por lo tanto, cuando la ventana del navegador tiene X píxeles de ancho o menos, todos los elementos dentro de la clase ".container" se mostrarán en una única columna en lugar de en una fila horizontal.
+
 La propiedad "flex-direction" se utiliza para definir la dirección en la que se colocan los elementos flexibles dentro de un contenedor. Al establecer su valor en "column", se indica que los elementos se colocarán en una columna en lugar de en una fila.
+
 Los media queries son una forma de aplicar estilos específicos a una página web en función de las características del dispositivo en el que se está mostrando. En este caso, el media query establece que las reglas de estilo dentro de él solo se aplicarán cuando el ancho de la pantalla sea igual o menor a X píxeles.
 Es importante destacar que los media queries sí pueden afectar a las propiedades flexbox, como se demuestra en este ejemplo.
-
-
 
 
 ## JavaScript (JS)
