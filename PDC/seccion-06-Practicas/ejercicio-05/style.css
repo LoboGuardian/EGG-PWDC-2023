@@ -1,4 +1,4 @@
-/* Estilos CSS para centrar el contenido */
+/* Estilos CSS para centrar el contenido
 body {
   display: flex;
   justify-content: center;
@@ -6,7 +6,6 @@ body {
   height: 100vh;
 }
 
-
 #resultados {
     display: none;
-  }
+  } */

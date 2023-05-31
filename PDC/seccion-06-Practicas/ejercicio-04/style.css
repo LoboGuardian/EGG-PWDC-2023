@@ -50,8 +50,3 @@ body {
     font-size: 24px;
     text-align: center;
  }
-  /* En este ejemplo, se agrega un estilo CSS al elemento `body` para establecer el margen en 0. Además, se utiliza la propiedad `margin` en el contenedor principal con un valor de "0 auto" para centrar el contenedor en la página horizontalmente.
-  
-  También se agrega un relleno de 10px en cada lado del contenedor principal para separar el contenido del borde de la ventana del navegador. Esto evita que el contenido se extienda demasiado cerca del borde de la ventana del navegador.
-  
-  Espero que esta respuesta te sea útil para solucionar el problema del margen blanco feo en tu página HTML. Si tienes alguna otra pregunta o necesitas más ayuda, no dudes en preguntar. */

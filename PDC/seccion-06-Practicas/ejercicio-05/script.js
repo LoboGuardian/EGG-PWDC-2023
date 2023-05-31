@@ -16,7 +16,7 @@ function operacionesMatematicas(num1, num2) {
     // resultados.resta = num1 - num2;
     // resultados.multiplicacion = num1 * num2;
     // resultados.division = num1 / num2;
-  
+    
     console.log(resultados);
     return resultados;
   }
