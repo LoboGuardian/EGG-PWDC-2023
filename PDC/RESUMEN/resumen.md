@@ -2,11 +2,11 @@
 
 Les comparto los fundamentos que aprendí en el curso de PWDC (Programación Web desde Cero) con Egg
 
-Estará desglosado de acuerdo a cada lenguaje, de la siguiente manera
-- Primeros pasos
-- HTML
-- CSS
-- JavaScript (JS)
+Estará desglosado de acuerdo a cada lenguaje, de la siguiente manera, si quieres saltar a algun tema en especifico solo selecciona el indice
+- ![Primeros pasos](#primeros-pasos)
+- ![HTML](#html)
+- ![CSS](#css)
+- ![JavaScript (JS)](#javascript-js)
 
 ## Primeros pasos
 
@@ -21,9 +21,9 @@ Algunos ejemplos de editores de código populares son Visual Studio Code, Sublim
 
 Para iniciar y terminar un elemento en `HTML` se utiliza una etiqueta de inicio y una etiqueta de cierre.
 
-La etiqueta de inicio se escribe con el nombre del elemento encerrado entre corchetes angulares (<>) y puede tener atributos opcionales que se indican dentro de la misma etiqueta. Por ejemplo, la etiqueta de inicio para un párrafo es <p>.
+La etiqueta de inicio se escribe con el nombre del elemento encerrado entre corchetes angulares (<>) y puede tener atributos opcionales que se indican dentro de la misma etiqueta. Por ejemplo, la etiqueta de inicio para un párrafo es `<p>`.
 
-La etiqueta de cierre se escribe con el nombre del elemento precedido por una barra diagonal (/) y encerrado entre corchetes angulares. Por ejemplo, la etiqueta de cierre para un párrafo es </p>.
+La etiqueta de cierre se escribe con el nombre del elemento precedido por una barra diagonal (/) y encerrado entre corchetes angulares. Por ejemplo, la etiqueta de cierre para un párrafo es `</p>`.
 
 Por lo tanto, un elemento en HTML se escribe utilizando la etiqueta de inicio, el contenido del elemento y la etiqueta de cierre, como en el siguiente ejemplo:
 ```
@@ -58,10 +58,9 @@ Donde:
     - Las etiquetas meta, que proporcionan información sobre la página, como el autor, la descripción, las palabras clave, entre otros.
     - Enlaces a archivos de estilo CSS, que se utilizan para dar estilo y formato al contenido de la página.
     - Enlaces a archivos de script JavaScript, que se utilizan para agregar interactividad y dinamismo a la página.
-Además, la sección <head> también puede contener declaraciones que definen el tipo de documento y la versión de HTML que se está utilizando, como la siguiente línea:
+Además, la sección `<head>` también puede contener declaraciones que definen el tipo de documento y la versión de HTML que se está utilizando, como la siguiente línea:
 
-- "body" es una palabra clave que define el estilo del borde, como "solid" (sólido), "dashed" (discontinuo), "dotted" (punteado), entre otros.
-- "" es un valor que define el color del borde, puede ser un nombre de color, un valor RGB, un valor hexadecimal, entre otros.
+- `body` es una palabra clave que define el estilo del borde, como "solid" (sólido), "dashed" (discontinuo), "dotted" (punteado), entre otros.
 
 **Comentarios**
 
@@ -71,12 +70,8 @@ La forma correcta de agregar una etiqueta de comentario en el código HTML es ut
 ```
 
 Los comentarios en HTML se utilizan para incluir notas o explicaciones en el código que no se mostrarán en la página web. Los comentarios pueden ser útiles para recordar la función de ciertas secciones del código, para indicar cambios que se han realizado o para dejar notas para otros desarrolladores que trabajen en el mismo proyecto.
-Para agregar un comentario en HTML, se encierra el texto del comentario entre los caracteres "<!--" al inicio y "-->" al final. Todo lo que se encuentre dentro de estos caracteres se considerará un comentario y no se mostrará en la página web.
 
-
-
-
-
+Para agregar un comentario en HTML, se encierra el texto del comentario entre los caracteres `<!--" al inicio y "-->` al final. Todo lo que se encuentre dentro de estos caracteres se considerará un comentario y no se mostrará en la página web.
 
 ## CSS
 
