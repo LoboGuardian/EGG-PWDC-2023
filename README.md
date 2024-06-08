@@ -1,6 +1,7 @@
-# Egg
+# EGG-PWDC-2023
+PWDC (Programación Web desde Cero)
 
-## Mi puntuación en PWDC (Programación Web desde Cero)
+## Puntuación obtenida en el curso.
 
 ![score](score.jpg)
 
