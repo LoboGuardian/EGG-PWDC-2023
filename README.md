@@ -1,6 +1,6 @@
 # Egg
 
-## Mi puntuación
+## Mi puntuación en PWDC (Programación Web desde Cero)
 
 ![score](score.jpg)
 
